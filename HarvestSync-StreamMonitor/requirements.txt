@@ -1,0 +1,7 @@
+sqlalchemy~=1.4.39
+coloredlogs~=15.0.1
+opencv-python~=4.8.0.76
+pydantic~=2.1.1
+uvicorn~=0.23.2
+apscheduler~=3.9.0
+fastapi~=0.101.1

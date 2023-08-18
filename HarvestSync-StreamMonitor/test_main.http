@@ -1,0 +1,82 @@
+### 创建视频 - 基础输入
+POST http://localhost:8000/video/
+Content-Type: application/json
+
+{
+  "title": "Sample Video",
+  "stream_url": "http://example.com/video_stream_basic"
+}
+
+###
+
+### 创建视频 - 完整输入
+POST http://localhost:8000/video/
+Content-Type: application/json
+
+{
+  "title": "Detailed Sample Video",
+  "description": "This is a test video with detailed information.",
+  "stream_url": "http://example.com/video_stream_detailed",
+  "quality": "1080p",
+  "format": "H.264",
+  "source": "Test Source",
+  "status": "active",
+  "bandwidth": "10Mbps"
+}
+
+###
+
+### 创建视频 - 重复的流URL (预期失败)
+POST http://localhost:8000/video/
+Content-Type: application/json
+
+{
+  "title": "Sample Video",
+  "stream_url": "http://example.com/video_stream_basic"
+}
+
+###
+
+### 测试读取已存在的视频信息
+GET http://localhost:8000/video/1
+
+###
+
+### 测试读取不存在的视频信息（预期失败）
+GET http://localhost:8000/video/99999
+
+###
+
+### 开始监控某个视频
+POST http://127.0.0.1:8000/monitor/1?interval=20
+Content-Type: application/json
+
+###
+
+### 重复开始监控某个视频（预期相同结果）
+POST http://127.0.0.1:8000/monitor/1?interval=20
+Content-Type: application/json
+
+###
+
+### 开始监控一个不存在的视频（预期失败）
+POST http://127.0.0.1:8000/monitor/99?interval=20
+Content-Type: application/json
+
+###
+
+### 测试 is_monitoring 端点
+
+# 这个GET请求将检查id=1的视频是否正在被监控
+GET http://localhost:8000/is_monitoring/1
+Content-Type: application/json
+
+###
+
+### 测试 stop_monitoring 端点
+
+# 这个DELETE请求将尝试停止监控id=1的视频
+DELETE http://localhost:8000/monitor/1
+Content-Type: application/json
+
+###

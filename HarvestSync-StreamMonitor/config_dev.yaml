@@ -1,0 +1,7 @@
+database:
+  host: localhost
+  user: root
+  password: 161618qqh,.
+kafka:
+  bootstrap_servers: localhost:9092
+  topic: image_topic
