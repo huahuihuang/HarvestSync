@@ -1,0 +1,10 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./pest24/train/images
+val: ./pest24/val/images
+test:
+
+# number of classes
+nc: 24
+
+# class names
+names: ['Anomala corpulenta', 'Athetis lepigone', 'Bollworm', 'Meadow borer', 'holotrichia parallela', 'Armyworm', 'Agriotes fuscicollis Miwa', 'Spodoptera exigua', 'Gryllotalpa orientalis', 'Little Gecko','Scotogramma trifolii Rottemberg', 'Spodoptera cabbage', 'Rice planthopper', 'Spodoptera litura', 'Yellow tiger', 'Stem borer', 'Plutella xylostella', 'Rice Leaf Roller', 'Melahotus', 'Striped rice borer','Land tiger', 'Nematode trench', 'eight-character tiger', 'holotrichia oblita']

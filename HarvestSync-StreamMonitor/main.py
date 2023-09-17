@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
-    debug=True,
+    debug=False,
     title='HarvestSync-StreamMonitor',
     description='HarvestSync-StreamMonitor API文档',
     version='1.0.0',
@@ -117,7 +117,7 @@ async def startup_event():
             # 添加监控任务
             if not scheduler.get_job(job_id=str(video_id)):
                 extractor = LiveStreamExtractor(video.stream_url)
-                scheduler.add_job(extractor.extract_single_frame, 'interval', seconds=300, id=str(video_id))
+                scheduler.add_job(extractor.extract_single_frame, 'interval', seconds=2, id=str(video_id))
                 logger.info(
                     f"Started monitoring task for video ID: {video_id}, title: {video.title}, stream URL: {video.stream_url}")
             else:

@@ -5,34 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b670a1a-5fd6-4d79-b80e-bafc8542957a" name="更改" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-InferEngine/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/crud/crud.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/database/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/logs/logging_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/models/health_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/models/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/models/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/schemas/schemas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/config_dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/config_prod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/config_test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265543.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265563.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265583.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265603.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265623.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/frames/rtmp___liteavapp.qcloud.com_live_liteavdemoplayerstreamid_1692265643.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/data/generate_data_object_detection_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/data/generate_data_video_stream_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/data/object_detection_results.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/data/video_stream_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/test_viedo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test_main.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/技术栈.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/config/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/export.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/logger/logging_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/test/api_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/utils/segment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/utils/segment/general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-Algorithm_API/yolov5_inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/test_kafaka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HarvestSync.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HarvestSync.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarvestSync-InferEngine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HarvestSync-InferEngine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/models/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/app/models/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HarvestSync-StreamMonitor/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HarvestSync-StreamMonitor/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +36,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="huahuihuang" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -65,8 +60,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Desktop/HarvestSync&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -88,7 +85,29 @@
       <recent name="D:\Desktop\HarvestSync" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HarvestSync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HarvestSync-InferEngine" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HarvestSync-InferEngine/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HarvestSync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,9 +130,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_kafaka" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HarvestSync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HarvestSync-StreamMonitor/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HarvestSync-StreamMonitor/test/test_kafaka.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test_kafaka" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +170,12 @@
       <updated>1692346527852</updated>
       <workItem from="1692346531466" duration="43000" />
       <workItem from="1692346698316" duration="1449000" />
-      <workItem from="1692348235437" duration="231000" />
+      <workItem from="1692348235437" duration="1570000" />
+      <workItem from="1692363960434" duration="5346000" />
+      <workItem from="1692453304411" duration="2303000" />
+      <workItem from="1693791106784" duration="4795000" />
+      <workItem from="1694863356044" duration="758000" />
+      <workItem from="1694897684380" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1692347133499</created>
@@ -164,7 +212,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692348169588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit">
+      <created>1692348504402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692348504402</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit">
+      <created>1692348531827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692348531827</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +259,8 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HarvestSync$main.coverage" NAME="main 覆盖结果" MODIFIED="1692346921521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HarvestSync-StreamMonitor" />
+    <SUITE FILE_PATH="coverage/HarvestSync$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1692454436529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HarvestSync-InferEngine" />
+    <SUITE FILE_PATH="coverage/HarvestSync$test_kafaka.coverage" NAME="test_kafaka 覆盖结果" MODIFIED="1692367358098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HarvestSync-StreamMonitor/test" />
+    <SUITE FILE_PATH="coverage/HarvestSync$main.coverage" NAME="main 覆盖结果" MODIFIED="1692454172749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HarvestSync-StreamMonitor" />
   </component>
 </project>

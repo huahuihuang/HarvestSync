@@ -1,0 +1,16 @@
+detect_conf:
+  conf_thres: 0.25
+  iou_thres: 0.45
+  max_det: 1000
+  agnostic_nms: False
+  augment: False
+  classes: null
+
+YoloV5Detector_IN_conf:
+  weights: "./weights/Pest-YOLOv5s.pt"
+  data: "./weights/pest24.yaml"
+  device: "CPU"
+  imgsz: [640, 640]
+  half: False
+  dnn: False
+  vid_stride: 1
